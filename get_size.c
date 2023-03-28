@@ -5,7 +5,7 @@
  * @format: argument pointer to the str
  * @i: the argument pointer to use
  *
- * Return: Precision.- type is int
+ * Return: int type
  */
 int get_size(const char *format, int *i)
 {
