@@ -1,9 +1,8 @@
 #include <unistd.h>
 #include "main.h"
 /**
- *_printf - takes in a string and prints different types of arguments for
- * an unspecified amount of arguments
- * @format: the initial string that tell us what is going to be printed
+ *_printf -consumes a string and produces an output accordingly
+ * @format: apointer argument to the str we'd wish to format
  * Return: the amount of times we write to stdout
  */
 int _printf(const char *format, ...)

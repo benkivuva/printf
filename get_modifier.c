@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  *get_modifier - finds the modifier and invokes corresponding func
  *@s:format string
