@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * get_size - Calculates the size to cast the argument
- * @format: Formatted string in which to print the arguments
- * @i: List of arguments to be printed.
+ * get_size-a function that check for the size
+ * @format: argument pointer to the str
+ * @i: the argument pointer to use
  *
- * Return: Precision.
+ * Return: Precision.- type is int
  */
 int get_size(const char *format, int *i)
 {
